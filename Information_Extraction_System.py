@@ -3,7 +3,7 @@ from openai import OpenAI
 
 # --- Step 0: Setup ---
 API_KEY = "up_GuigAOl5bgZmOGMDD3YzlJ5DRSk4Q"          # Your Upstage API key
-IMAGE_PATH = "D:/STUDY/2025-1/AGI agent Hackerthon/김당고_당뇨전단계_일반건강검진 결과통보서(건강검진 실시기준)_페이지_2.jpg"  # Path to your medical record image
+IMAGE_PATH = "example.jpg"  # Path to your medical record image
 
 def encode_image_to_base64(path):
     with open(path, "rb") as f:
